@@ -1,0 +1,111 @@
+/* Estilo para o degradê de fundo */
+body {
+    height: 100vh;
+    background: linear-gradient(to right, #412642, #caa540);
+    margin: 0;
+    padding: 0;
+    position: relative; /* Adicionado para o posicionamento do footer */
+}
+
+/* Estilo para o conteúdo principal */
+main {
+    padding: 20px; /* Espaçamento interno para o conteúdo */
+}
+
+/* Estilo para o header */
+header {
+    background-color: #462752;
+    color: #474343;
+    text-align: center;
+    padding: 10px 0; /* Espaçamento superior e inferior reduzido para 10px */
+    width: 100%; /* Largura reduzida para 80% da largura da tela */
+    margin: 0 auto; /* Centraliza o header horizontalmente */
+}
+
+/* Estilo para a navegação no header */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff6a3;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #af36ff;
+}
+
+/* Estilo para os botões */
+.botao {
+    display: inline-block;
+    background-color: #ad8a15;
+    color: #f3ea9e;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.botao:hover {
+    background-color: #51146e93;
+}
+
+/* Estilo para o conteúdo do projeto */
+.projeto {
+    display: flex;
+    flex-direction: row-reverse; /* Inverte a direção dos elementos */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center;
+}
+
+.conteudo {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+}
+
+.conteudo h1 {
+    margin-top: 0;
+}
+
+/* Estilo para a imagem do projeto no canto direito */
+.imagem-direita {
+    max-width: 50%; /* Largura máxima de 50% da largura do contêiner pai */
+    max-height: 400px; /* Altura máxima de 300 pixels */
+    float: right; /* Alinhar a imagem à direita */
+    margin-left: 2000zpx; /* Adicionar uma margem à esquerda para separar o conteúdo */
+}
+
+/* Estilo para o footer */
+footer {
+    background-color: #2d0738bd;
+    color: #e2d66d;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+}
+
+.linha-separadora {
+    border: none;
+    border-top: 2px solid #f3c52c;
+    margin: 10px auto;
+    width: 95%;
+}
+
+/* Estilo para centralizar o conteúdo na página */
+.container {
+    margin: 0 auto;
+    max-width: 800px; /* Defina a largura máxima desejada */
+}
